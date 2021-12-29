@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div id="container">
+      <div class="form-wrap">
+        <!-- heading part -->
+        <div class="heads">
+          <h1>Sign Up</h1>
+          <p>it's free and only takes a minute</p>
+        </div>
+        <!-- startin of form -->
+        <form>
+          <!-- 1st name -->
+          <div class="form-gp">
+            <label for="first-name">First Name</label>
+            <input type="text" name="firstName" id="first-name" />
+          </div>
+          <!-- last name -->
+          <div class="form-gp">
+            <label for="last-name">Last Name</label>
+            <input type="text" name="lastNAme" id="last-name" />
+          </div>
+          <!-- for email -->
+          <div class="form-gp">
+            <label for="email">Eamil</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <!-- for Password -->
+          <div class="form-gp">
+            <label for="pass">Password</label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <!-- password Confitrmation -->
+          <div class="form-gp">
+            <label for="confPass">Confirm Password</label>
+            <input type="password" name="password2" id="confPass" />
+          </div>
+          <button type="submit" class="btn">Sign Up</button>
+          <p class="end">
+            By clicking the Sign Up button , you agree to our
+            <a href="#">Terms & Conditions </a> and
+            <a href="#">Privacy Policy</a>
+          </p>
+        </form>
+      </div>
+      <footer>
+        <p>
+          Already have an account ?
+          <a href="#">Login Here</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
